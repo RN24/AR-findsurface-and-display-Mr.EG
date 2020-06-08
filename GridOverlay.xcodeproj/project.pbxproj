@@ -13,6 +13,9 @@
 		10CB1456248A0F4500B1A12C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10CB1454248A0F4500B1A12C /* Main.storyboard */; };
 		10CB1458248A0F4900B1A12C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10CB1457248A0F4900B1A12C /* Assets.xcassets */; };
 		10CB145B248A0F4900B1A12C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10CB1459248A0F4900B1A12C /* LaunchScreen.storyboard */; };
+		10CB1463248A1BAD00B1A12C /* GridPlane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CB1462248A1BAD00B1A12C /* GridPlane.swift */; };
+		10CB1465248A214700B1A12C /* overlay_grid.png in Resources */ = {isa = PBXBuildFile; fileRef = 10CB1464248A214700B1A12C /* overlay_grid.png */; };
+		10CB1467248A285000B1A12C /* ega.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 10CB1466248A285000B1A12C /* ega.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		10CB1457248A0F4900B1A12C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10CB145A248A0F4900B1A12C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		10CB145C248A0F4900B1A12C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10CB1462248A1BAD00B1A12C /* GridPlane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridPlane.swift; sourceTree = "<group>"; };
+		10CB1464248A214700B1A12C /* overlay_grid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = overlay_grid.png; path = "GridOverlay 2/GridOverlay/overlay_grid.png"; sourceTree = SOURCE_ROOT; };
+		10CB1466248A285000B1A12C /* ega.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ega.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +65,10 @@
 				10CB144E248A0F4500B1A12C /* AppDelegate.swift */,
 				10CB1450248A0F4500B1A12C /* art.scnassets */,
 				10CB1452248A0F4500B1A12C /* ViewController.swift */,
+				10CB1462248A1BAD00B1A12C /* GridPlane.swift */,
 				10CB1454248A0F4500B1A12C /* Main.storyboard */,
+				10CB1464248A214700B1A12C /* overlay_grid.png */,
+				10CB1466248A285000B1A12C /* ega.jpg */,
 				10CB1457248A0F4900B1A12C /* Assets.xcassets */,
 				10CB1459248A0F4900B1A12C /* LaunchScreen.storyboard */,
 				10CB145C248A0F4900B1A12C /* Info.plist */,
@@ -126,7 +135,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				10CB1451248A0F4500B1A12C /* art.scnassets in Resources */,
+				10CB1465248A214700B1A12C /* overlay_grid.png in Resources */,
 				10CB145B248A0F4900B1A12C /* LaunchScreen.storyboard in Resources */,
+				10CB1467248A285000B1A12C /* ega.jpg in Resources */,
 				10CB1458248A0F4900B1A12C /* Assets.xcassets in Resources */,
 				10CB1456248A0F4500B1A12C /* Main.storyboard in Resources */,
 			);
@@ -139,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10CB1463248A1BAD00B1A12C /* GridPlane.swift in Sources */,
 				10CB1453248A0F4500B1A12C /* ViewController.swift in Sources */,
 				10CB144F248A0F4500B1A12C /* AppDelegate.swift in Sources */,
 			);
